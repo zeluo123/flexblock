@@ -15,14 +15,14 @@
   
 
   
-    <meta name="author" content="John Doe">
+    <meta name="author" content="昃落">
   
 
   
 
   
 
-  <title>Hexo</title>
+  <title>睡觉</title>
 
   
 
@@ -56,7 +56,7 @@
     <div class="navbar-logo">
       <a href="/">
         
-          Hexo
+          睡觉
         
       </a>
     </div>
@@ -86,7 +86,7 @@
   
     <div class="header-content">
       <div class="post-text layout-block layout-padding">
-        <h1 class="title-wrap">Hexo</h1>
+        <h1 class="title-wrap">睡觉</h1>
         
       </div>
     </div>
@@ -177,7 +177,7 @@
       
     </div>
      
-    <p>&copy; 2024 <a href="/" target="_blank">John Doe</a></p>
+    <p>&copy; 2024 <a href="/" target="_blank">昃落</a></p>
 
     
 
@@ -215,11 +215,70 @@
   
 
 
+  <!-- Google Analytics START -->
+  <script type="text/javascript">
+    (function() {
+      if (window.location.hostname === "localhost" || window.location.hostname.startsWith("192.168")) {
+        return console.log("本地调试");
+      }
+
+      window.dataLayer = window.dataLayer || [];
+      
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      let script = document.createElement("script")
+
+      script.onload = function() {
+        gtag('js', new Date());
+        gtag('config', "UA-165681463-1");
+      }
+
+      script.src = "https://www.googletagmanager.com/gtag/js?id=UA-165681463-1"
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(script, s);
+    })()
+  </script>
+  <!-- Google Analytics End -->
+
   
 
 
+  <!-- Baidu Analytics START -->
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      if (window.location.hostname === "localhost" || window.location.hostname.startsWith("192.168")) {
+        return console.log("本地调试");
+      }
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?77cce6624f1114785af5e77d00cbf93c";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+  <!-- Baidu Analytics End -->
+
   
 
+
+  <!-- Tencent Analytics START -->
+  <script>
+      var _mtac = {"performanceMonitor":1};
+      (function() {
+        if (window.location.hostname === "localhost" || window.location.hostname.startsWith("192.168")) {
+          return console.log("本地调试");
+        }
+        var mta = document.createElement("script");
+        mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+        mta.setAttribute("name", "MTAH5");
+        mta.setAttribute("sid", "66537616");
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(mta, s);
+      })();
+  </script>
+  <!-- Tencent Analytics End -->
 
 
 
